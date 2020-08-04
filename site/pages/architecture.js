@@ -10,6 +10,7 @@ Insert under construction gif here
     <li><a href="https://www.bloomberg.com/citylab">Citylab</a></li>
     <li><a href="http://rethinkingstreets.com">Rethinking Streets</a> - White Papers</li>
     <li><a href="https://en.wikipedia.org/wiki/Radburn,_New_Jersey">Radburn, NJ</a> - Designed by Marjorie Sewell Cautley</li>
+    <li><a href="https://www.nordic.ca/en/home">Nordic Structures</a></li>
 </ul>
 `;
 

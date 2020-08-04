@@ -73,6 +73,7 @@ A mix of state and regional athorities resources.
   <li><a href="https://www.onlyinyourstate.com">OnlyInYourState</a> - State focused outdoor travel</li>
   <li><a href="https://www.passportamerica.com">Passport America</a> - 50% off some campgrounds</li>
   <li><a href="https://www.tentrr.com">Tentrr</a> - Private campground glamping</li>
+  <li><a href="https://yourpassnow.com/r1s">Your Pass Now</a> - State park passes<li>
 </ul>
 <h3>Beach Camping</h3>
 <ul>
