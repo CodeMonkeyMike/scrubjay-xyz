@@ -1,11 +1,12 @@
 const path = require('path');
 const fs = require('fs');
-const fse = require("fs-extra");
+const fse = require('fs-extra');
 
 const directoryPath = path.join(__dirname, 'pages');
 
-const title = 'Scrub Jay Randomness!';
+const title = 'ScrubJay - miscellaneous links and thoughts';
 const description = 'Random bits and bobs of interesting rabbit holes';
+const baseUrl = 'https://scrubjay.xyz';
 
 const htmlTemplate = data => `
 <!DOCTYPE html>
@@ -15,10 +16,11 @@ const htmlTemplate = data => `
         <title>${data.title}</title>
         <meta name="description" content="${data.description}" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="" />
-        <meta property="og:type" content="" />
-        <meta property="og:url" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:title" content="${data.title}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="${data.pageUrl}" />
+        <meta property="og:image" content="${data.imageUrl}" />
+        <meta property="og:locale" content="en_US" />
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
@@ -79,15 +81,22 @@ function slugify(v) {
 
 function createNavigation(pageNames) {
     const navElementTemplate = (urlSlug, text) => `<div class="nav-item"><a href="/${urlSlug}.html">${text}</a></div>`;
-    return pageNames.map((v) => navElementTemplate(slugify(v), v)).join('\n');
+    return pageNames.map((v) => {
+        if (v === 'index') {
+            return navElementTemplate(slugify(v), 'Home');
+        }
+        return navElementTemplate(slugify(v), v);
+    }).join('\n');
 }
 
-function compilePage(pageData, navigation) {
+function compilePage(pageData, navigation, urlSlug) {
     return htmlTemplate({
         "title": title,
         "description": description,
         "navigation": navigation,
         "content": pageData.content,
+        "pageUrl": baseUrl + '/' + urlSlug,
+        "imageUrl": baseUrl + '/android-chrome-512x512.png',
     });
 }
 
@@ -96,7 +105,7 @@ function processPageData(pagesData) {
     const outputPages = {}; // {"page-url": "compiled page"}
     pagesData.forEach((pageData) => {
         const urlSlug = slugify(pageData.name);
-        const page = compilePage(pageData, navigation);
+        const page = compilePage(pageData, navigation, urlSlug);
         outputPages[urlSlug] = page;
     });
     for (slug in outputPages) {

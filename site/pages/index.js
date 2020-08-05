@@ -11,6 +11,7 @@ const content = `
     <li><a href="https://en.wikipedia.org/wiki/Kei_car">Kei Car</a> - Japanese standard for small cars that were subsidized in cost</li>
     <li><a href="https://www.icon4x4.com">Icon 4x4</a> - New hand made Toyota FJ/Jeep CJ style trucks</li>
     <li><a href="https://ineosgrenadier.com">Ineos Grenadier</a> - European military style 4x4</li>
+    <li><a href="https://lordstownmotors.com">Lordstown Motors</a> - "workin' mans" electric truck</li>
 </ul>
 <h3>Space - The Final Frontier</h3>
 <ul>
@@ -23,7 +24,7 @@ const content = `
     <li><a href="https://www.x-cat.com/en/mobility">X-Cat</a> - Sail Catamaran that is roof toppable</li>
     <li><a href="https://en.wikipedia.org/wiki/Snark_sailboat">Snark Sailboat</a> - Cheap ass sailboats</li>
     <li><a href="https://tiwal.com/en/tiwal3">Tiwal 3</a> - Inflatable sailboat</li>
-    <li><a href="https://www.sea-doo.com/us/en/models/rec-lite/spark.html">See Doo Spark</a></li>
+    <li><a href="https://www.sea-doo.com/us/en/models/rec-lite/spark.html">See Doo Spark</a> - Cheap jetski</li>
     <li><a href="https://outfitedge.com">Outfit Edge</a> - Foldable Kayak seller</li>
     <li><a href="https://redbeardsailing.com">Red Beard Sailing</a> - Foldable Kayak seller</li>
     <li><a href="https://www.sailboatstogo.com">Sail Boats To Go</a> - Foldable Kayak seller</li>
@@ -73,10 +74,14 @@ const content = `
     <li><a href="http://columbiagames.com/cgi-bin/query/harn/cfg/single.cfg?product_id=5001">Harn</a> - Medieval fantasy setting</li>
     <li><a href="https://www.desktodirtbag.com/most-scenic-drives-in-the-usa">Desk To Dirt Bag</a> - 15 scenic drives</li>
     <li><a href="https://scenicbyways.info">Scenic Byways</a> - Scenic drives based on books and national/state designations</li>
-    <li><a href="https://aschmann.net/AmEng">North American English Dialects</a></li>
-    <li><a href="https://www.communitywalk.com">Community Walk</a></li>
+    <li><a href="https://aschmann.net/AmEng">North American English Dialects</a> - Map of American Dialets</li>
+    <li><a href="https://www.communitywalk.com">Community Walk</a> - Maps of walking paths</li>
     <li><a href="https://pressofatlanticcity.com/news/the-complex-life-of-charles-k-landis/article_5d926824-f0b9-5a91-aa8d-ecbe245b45cd.html#11">Press of Atlantic City</a> - Charles K. Landis</li>
     <li><a href="https://docs.google.com/document/d/1VKH1h5-GccMZyTx-yc5Np1-E_g4lswxAUyDAAeDuuZw/edit">Govenment Generator</a> - Generate government types for RPG games (G-Sheets)</li>
+    <li><a href="https://www.garrett.com/sport">Garrett Metal Detectors</a> - Top metal detector brand</li>
+    <li><a href="https://electrek.co">Electrek</a> - Electric vehicle modility focused news</li>
+    <li><a href="https://en.wikipedia.org/wiki/Palmanova">Palmanova</a> - Radial fortress town in Italy</li>
+    <li><a href="http://www.microcarmuseum.com/info.html">Micro Car Museum</a> - Tiny car museum in Madison, GA</li>
 </ul>
 `;
 
