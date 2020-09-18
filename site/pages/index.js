@@ -8,10 +8,12 @@ const content = `
 <ul>
     <li><a href="https://rivian.com">Rivian</a> - Electric Truck</li>
     <li><a href="https://en.wikipedia.org/wiki/Suzuki_X-90">Suzuki X-90</a> - Mini Car</li>
+    <li><a href="https://en.wikipedia.org/wiki/Chevrolet_Tracker_(Americas)">Chevrolet Tracker</a> - Small rebranded Suzuki</li>
     <li><a href="https://en.wikipedia.org/wiki/Kei_car">Kei Car</a> - Japanese standard for small cars that were subsidized in cost</li>
     <li><a href="https://www.icon4x4.com">Icon 4x4</a> - New hand made Toyota FJ/Jeep CJ style trucks</li>
     <li><a href="https://ineosgrenadier.com">Ineos Grenadier</a> - European military style 4x4</li>
     <li><a href="https://lordstownmotors.com">Lordstown Motors</a> - "workin' mans" electric truck</li>
+    <li><a href="https://bollingermotors.com">Bollinger Motors</a> - G-Wagon like electic pickup truck</li>
 </ul>
 <h3>Space - The Final Frontier</h3>
 <ul>
@@ -29,6 +31,9 @@ const content = `
     <li><a href="https://redbeardsailing.com">Red Beard Sailing</a> - Foldable Kayak seller</li>
     <li><a href="https://www.sailboatstogo.com">Sail Boats To Go</a> - Foldable Kayak seller</li>
     <li><a href="https://www.state.nj.us/dep/fgw/pdf/boat_ramp_guide.pdf">NJ Boater's Ramp Guide</a> - List of boat ramps in NJ (PDF)</li>
+    <li><a href="https://www.hobie.com/sail/wave">Hobie</a> - Wave</li>
+    <li><a href="http://www.fulcrumspeedworks.com/UFO">Fulcrum Speed Works UFO</a> - Lightweight folding catamaran</li>
+    <li><a href="https://www.monmouthcountyparks.com/page.aspx?Id=2554">Monmouth County Parks</a> - Boat access by park</li>
 </ul>
 <h3>Youtubers</h3>
 <ul>
@@ -67,21 +72,45 @@ const content = `
     <li><a href="https://www.youtube.com/channel/UCy0tKL1T7wFoYcxCe0xjN6Q">Technology Connections</a></li>
     <li><a href="https://www.youtube.com/channel/UC0woBco6Dgcxt0h8SwyyOmw">Megaprojects</a></li>
 </ul>
+<h3>Maps and Data Vis</h3>
+<ul>
+    <li><a href="https://macrostrat.org">Macrostrat</a> - Geologic map</li>
+    <li><a href="https://sashamaps.net/docs/maps">Sashamaps</a> - Ancient data visualization via maps</li>
+    <li><a href="https://aschmann.net/AmEng">North American English Dialects</a> - Map of American Dialets</li>
+    <li><a href="https://www.state.nj.us/dep/njgs/enviroed/freedwn/njrocksbook.pdf">NJ State Rocks and Sediments Report</a> - Minerals of NJ</li>
+</ul>
+<h3>Computers/Games/Monitors</h3>
+<ul>
+    <li><a href="http://personalpages.tds.net/~rcarlsen/cbm/monitors">R Carlsen</a> - Comodore monitor repairs</li>
+    <li><a href="https://huguesjohnson.com/programming/atari-2600-basic">Hugues Johnson</a> - Atari 2600 Basic Programming</li>
+    <li><a href="http://forum.arcadecontrols.com/index.php?topic=151635.0">Arcade Controls</a> - List of Midi samples with games</li>
+    <li><a href="https://myhometheater.homestead.com/bandwidthcalculator.html">My Home Theater</a> - Calculator for monitor resolution</li>
+    <li><a href="http://www.the-liberator.net/site-files/retro-games/hardware/index.htm">The Liberator</a> - Retro video game console images</li>
+    <li><a href="https://docs.google.com/spreadsheets/d/1uI8qD_1waAlgb6fghcIDqJabmRegSQ_h2-N05UHEm-o/edit#gid=0">Junker net Google Docs</a> - Donor tube guide for arcade monitors</li>
+    <li><a href="http://www.arcadeshop.de/product_info.php?products_id=1054&language=en">Arcade Shop</a> - Soft-15kHz EDID Dongle</li>
+    <li><a href="http://15khz.wikidot.com">15khz Wikidot</a> - LCD/OLED monitors that support 15khz</li>
+    <li><a href="http://www.starringthecomputer.com">Starring the Computer</a> - Old Computers in movies</li>
+</ul>
+<h3>Random things to do</h3>
+<ul>
+    <li><a href="http://www.publicstairs.com">Public Stairs</a> - List of public stair cases</li>
+    <li><a href="https://www.communitywalk.com">Community Walk</a> - Maps of walking paths</li>
+    <li><a href="https://scenicbyways.info">Scenic Byways</a> - Scenic drives based on books and national/state designations</li>
+    <li><a href="https://www.desktodirtbag.com/most-scenic-drives-in-the-usa">Desk To Dirt Bag</a> - 15 scenic drives</li>
+</ul>
 <h3>Unsorted links</h3>
 <ul>
-    <li><a href="https://www.smegusa.com/50s-retro-style">Smeg</a> - Retro inspired kitchen appliances</li>
-    <li><a href="https://www.red-dot.org">Red Dot</a> - Design awards</li>
     <li><a href="http://columbiagames.com/cgi-bin/query/harn/cfg/single.cfg?product_id=5001">Harn</a> - Medieval fantasy setting</li>
-    <li><a href="https://www.desktodirtbag.com/most-scenic-drives-in-the-usa">Desk To Dirt Bag</a> - 15 scenic drives</li>
-    <li><a href="https://scenicbyways.info">Scenic Byways</a> - Scenic drives based on books and national/state designations</li>
-    <li><a href="https://aschmann.net/AmEng">North American English Dialects</a> - Map of American Dialets</li>
-    <li><a href="https://www.communitywalk.com">Community Walk</a> - Maps of walking paths</li>
-    <li><a href="https://pressofatlanticcity.com/news/the-complex-life-of-charles-k-landis/article_5d926824-f0b9-5a91-aa8d-ecbe245b45cd.html#11">Press of Atlantic City</a> - Charles K. Landis</li>
     <li><a href="https://docs.google.com/document/d/1VKH1h5-GccMZyTx-yc5Np1-E_g4lswxAUyDAAeDuuZw/edit">Govenment Generator</a> - Generate government types for RPG games (G-Sheets)</li>
+    <li><a href="https://pressofatlanticcity.com/news/the-complex-life-of-charles-k-landis/article_5d926824-f0b9-5a91-aa8d-ecbe245b45cd.html#11">Press of Atlantic City</a> - Charles K. Landis</li>
     <li><a href="https://www.garrett.com/sport">Garrett Metal Detectors</a> - Top metal detector brand</li>
-    <li><a href="https://electrek.co">Electrek</a> - Electric vehicle modility focused news</li>
-    <li><a href="https://en.wikipedia.org/wiki/Palmanova">Palmanova</a> - Radial fortress town in Italy</li>
     <li><a href="http://www.microcarmuseum.com/info.html">Micro Car Museum</a> - Tiny car museum in Madison, GA</li>
+    <li><a href="https://sowtrueseed.com/collections/watermelon">Sow True Seed</a> - Bradford family watermelon</li>
+    <li><a href="https://rockmanorgames.com/portfolio/maximum-apocalypse-rpg">Maximum Apocalypse RPG</a> - New simple TTRPG framework d100 based</li>
+    <li><a href="https://en.wikipedia.org/wiki/Border_irregularities_of_the_United_States">Wikipedia</a> - Border irregularities of the United States</li>
+    <li><a href="https://www.primalsurvivor.net/make-pine-pitch">Primal Survivor</a> - Collect pine sap and create pine pitch</li>
+    <li><a href="http://sherylcanter.com/wordpress/2010/01/a-science-based-technique-for-seasoning-cast-iron">Sheryl Canter</a> - Season cast iron</li>
+    <li><a href="https://en.wikipedia.org/wiki/Nernst_lamp">Nernst Lamp</a> - Because fire + electricity = light</li>
 </ul>
 `;
 

@@ -37,7 +37,14 @@ const content = `
     <li><a href="https://www.cellmapper.net">Cell Mapper</a> - Map of cell towers</li>
     <li><a href="https://www.amplock.com">AMPLock</a> - Tow hitch lock</li>
     <li><a href="https://www.kapsulair.com">Kapsul</a> - Small half height air conditioner</li>
-    <li><a href=""></a></li>
+    <li><a href="https://www.autohomeus.com">AutoHome</a> - Roof toppable pop up campers</li>
+    <li><a href="https://roofnest.com">RoofNest</a> - Roof toppable pop up campers</li>
+    <li><a href="https://www.hiatuscampers.com">hiatus Campers</a> - Trailer bed pop up campers</li>
+    <li><a href="https://calyxinstitute.org">Calyx Institute</a> - Unlimited wireless internet</li>
+    <li><a href="http://www.perfectcasita.com/index.html">Perfect Casita</a> - Casita and Scamp aftermarket upgrades</li>
+    <li><a href="https://littlehousecustoms.com/store.html">Little House Customs</a> - Casita aftermarket upgrades and parts</li>
+    <li><a href="https://mgs4u.com/?v=7516fd43adaa">Max-Gain Systems</a> - Fiberglass telescoping radio masts</li>
+    <li><a href="https://www.therangerstation.com/resources/ford_ranger_scamp_motorhome.shtml">The Ranger Station</a> - Ford Ranger Scamp motor home</li>
 </ul>
 `;
 

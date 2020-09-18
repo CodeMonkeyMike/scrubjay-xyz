@@ -70,7 +70,6 @@ A mix of state and regional athorities resources.
   <li><a href="https://www.onlyinyourstate.com">OnlyInYourState</a> - Pretty cool state guides to mostly outdoor activities</li>
   <li><a href="https://theculturetrip.com">TheCultureTrip</a> - Internationally focused travel</li>
   <li><a href="https://drivinvibin.com">DrivinVibin</a> - RV/Travel Trailer focused travel</li>
-  <li><a href="https://www.onlyinyourstate.com">OnlyInYourState</a> - State focused outdoor travel</li>
   <li><a href="https://www.passportamerica.com">Passport America</a> - 50% off some campgrounds</li>
   <li><a href="https://www.tentrr.com">Tentrr</a> - Private campground glamping</li>
   <li><a href="https://yourpassnow.com/r1s">Your Pass Now</a> - State park passes<li>
